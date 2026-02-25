@@ -1,0 +1,52 @@
+_time,host,source,sourcetype,severity,src_ip,dest_ip,signature,action,user
+2026-02-25T08:01:12,fw-edge-01,firewall,pan:traffic,high,203.0.113.45,10.0.1.20,Exploit.ShellCode,blocked,
+2026-02-25T08:03:44,ids-sensor-01,suricata,suricata:alert,critical,198.51.100.7,10.0.1.15,ET EXPLOIT Apache Log4j RCE Attempt,blocked,
+2026-02-25T08:05:10,win-dc-01,WinEventLog:Security,WinEventLog,medium,10.0.2.55,10.0.1.10,4625 - Failed Logon,allowed,jsmith
+2026-02-25T08:06:23,win-dc-01,WinEventLog:Security,WinEventLog,medium,10.0.2.55,10.0.1.10,4625 - Failed Logon,allowed,jsmith
+2026-02-25T08:06:58,win-dc-01,WinEventLog:Security,WinEventLog,medium,10.0.2.55,10.0.1.10,4625 - Failed Logon,allowed,jsmith
+2026-02-25T08:07:30,win-dc-01,WinEventLog:Security,WinEventLog,high,10.0.2.55,10.0.1.10,4740 - Account Lockout,allowed,jsmith
+2026-02-25T08:09:01,proxy-01,squid,squid:access,low,10.0.3.22,203.0.113.100,Suspicious Outbound - Known C2,blocked,bwilliams
+2026-02-25T08:11:33,fw-edge-01,firewall,pan:traffic,informational,10.0.4.10,8.8.8.8,DNS Query,allowed,
+2026-02-25T08:14:02,ids-sensor-01,suricata,suricata:alert,high,203.0.113.88,10.0.1.25,ET SCAN Nmap SYN Scan,blocked,
+2026-02-25T08:17:45,win-ws-055,WinEventLog:Security,WinEventLog,medium,10.0.5.55,10.0.1.10,4698 - Scheduled Task Created,allowed,ataylor
+2026-02-25T08:20:11,fw-edge-01,firewall,pan:traffic,high,203.0.113.45,10.0.1.20,Exploit.ShellCode,blocked,
+2026-02-25T08:22:39,ids-sensor-01,suricata,suricata:alert,critical,198.51.100.7,10.0.1.15,ET EXPLOIT Apache Log4j RCE Attempt,blocked,
+2026-02-25T08:25:00,proxy-01,squid,squid:access,medium,10.0.3.30,203.0.113.200,Malware Download Attempt,blocked,mrodriguez
+2026-02-25T08:27:18,win-dc-01,WinEventLog:Security,WinEventLog,low,10.0.2.10,10.0.1.10,4624 - Successful Logon,allowed,sysadmin
+2026-02-25T08:30:05,ids-sensor-01,suricata,suricata:alert,high,203.0.113.50,10.0.1.30,ET TROJAN Emotet CnC Beacon,blocked,
+2026-02-25T08:33:22,fw-edge-01,firewall,pan:traffic,critical,185.220.101.5,10.0.1.40,Ransomware.NotPetya,blocked,
+2026-02-25T08:36:47,win-ws-012,WinEventLog:Security,WinEventLog,medium,10.0.5.12,10.0.1.10,4688 - Process Created,allowed,jdoe
+2026-02-25T08:40:00,proxy-01,squid,squid:access,low,10.0.3.22,104.18.22.43,Phishing URL - Category Block,blocked,bwilliams
+2026-02-25T08:43:15,ids-sensor-01,suricata,suricata:alert,high,203.0.113.88,10.0.1.25,ET SCAN Port Sweep,blocked,
+2026-02-25T08:45:59,win-dc-01,WinEventLog:Security,WinEventLog,high,10.0.2.55,10.0.1.10,4672 - Special Privilege Assigned,allowed,sysadmin
+2026-02-25T09:01:04,fw-edge-01,firewall,pan:traffic,high,203.0.113.45,10.0.1.20,Exploit.ShellCode,blocked,
+2026-02-25T09:03:28,ids-sensor-01,suricata,suricata:alert,medium,10.0.5.33,10.0.1.10,ET POLICY SMB Lateral Movement,allowed,
+2026-02-25T09:06:11,win-dc-01,WinEventLog:Security,WinEventLog,medium,10.0.2.60,10.0.1.10,4625 - Failed Logon,allowed,pjohnson
+2026-02-25T09:08:50,win-dc-01,WinEventLog:Security,WinEventLog,medium,10.0.2.60,10.0.1.10,4625 - Failed Logon,allowed,pjohnson
+2026-02-25T09:10:22,win-dc-01,WinEventLog:Security,WinEventLog,high,10.0.2.60,10.0.1.10,4740 - Account Lockout,allowed,pjohnson
+2026-02-25T09:12:05,proxy-01,squid,squid:access,low,10.0.3.40,203.0.113.100,Suspicious Outbound - Known C2,blocked,lchen
+2026-02-25T09:15:33,ids-sensor-01,suricata,suricata:alert,critical,198.51.100.99,10.0.1.50,ET EXPLOIT CVE-2021-44228,blocked,
+2026-02-25T09:18:47,fw-edge-01,firewall,pan:traffic,informational,10.0.4.20,8.8.4.4,DNS Query,allowed,
+2026-02-25T09:21:10,win-ws-033,WinEventLog:Security,WinEventLog,medium,10.0.5.33,10.0.1.10,4698 - Scheduled Task Created,allowed,ataylor
+2026-02-25T09:24:38,ids-sensor-01,suricata,suricata:alert,high,203.0.113.88,10.0.1.55,ET SCAN Nmap SYN Scan,blocked,
+2026-02-25T09:27:55,fw-edge-01,firewall,pan:traffic,critical,185.220.101.5,10.0.1.40,Ransomware.NotPetya,blocked,
+2026-02-25T09:30:14,win-dc-01,WinEventLog:Security,WinEventLog,low,10.0.2.10,10.0.1.10,4624 - Successful Logon,allowed,sysadmin
+2026-02-25T09:33:29,ids-sensor-01,suricata,suricata:alert,high,203.0.113.50,10.0.1.30,ET TROJAN Emotet CnC Beacon,blocked,
+2026-02-25T09:36:03,proxy-01,squid,squid:access,medium,10.0.3.50,203.0.113.201,Malware Download Attempt,blocked,mrodriguez
+2026-02-25T09:39:17,win-ws-077,WinEventLog:Security,WinEventLog,medium,10.0.5.77,10.0.1.10,4688 - Process Created,allowed,jdoe
+2026-02-25T09:42:44,fw-edge-01,firewall,pan:traffic,high,203.0.113.45,10.0.1.20,Exploit.ShellCode,blocked,
+2026-02-25T09:45:00,ids-sensor-01,suricata,suricata:alert,critical,198.51.100.7,10.0.1.15,ET EXPLOIT Apache Log4j RCE Attempt,blocked,
+2026-02-25T09:48:22,win-dc-01,WinEventLog:Security,WinEventLog,high,10.0.2.55,10.0.1.10,4672 - Special Privilege Assigned,allowed,sysadmin
+2026-02-25T09:51:05,proxy-01,squid,squid:access,low,10.0.3.22,104.18.22.44,Phishing URL - Category Block,blocked,bwilliams
+2026-02-25T09:54:39,ids-sensor-01,suricata,suricata:alert,high,203.0.113.88,10.0.1.60,ET SCAN Port Sweep,blocked,
+2026-02-25T09:57:11,fw-edge-01,firewall,pan:traffic,informational,10.0.4.30,1.1.1.1,DNS Query,allowed,
+2026-02-25T10:00:00,ids-sensor-01,suricata,suricata:alert,critical,185.220.101.99,10.0.1.70,ET EXPLOIT EternalBlue,blocked,
+2026-02-25T10:02:14,win-dc-01,WinEventLog:Security,WinEventLog,high,10.0.2.70,10.0.1.10,4625 - Failed Logon,allowed,admin
+2026-02-25T10:05:33,win-dc-01,WinEventLog:Security,WinEventLog,high,10.0.2.70,10.0.1.10,4625 - Failed Logon,allowed,admin
+2026-02-25T10:08:47,win-dc-01,WinEventLog:Security,WinEventLog,high,10.0.2.70,10.0.1.10,4740 - Account Lockout,allowed,admin
+2026-02-25T10:11:02,fw-edge-01,firewall,pan:traffic,high,203.0.113.45,10.0.1.20,Exploit.ShellCode,blocked,
+2026-02-25T10:14:19,ids-sensor-01,suricata,suricata:alert,high,203.0.113.50,10.0.1.30,ET TROJAN Emotet CnC Beacon,blocked,
+2026-02-25T10:17:55,proxy-01,squid,squid:access,medium,10.0.3.60,203.0.113.202,Malware Download Attempt,blocked,lchen
+2026-02-25T10:21:10,win-ws-099,WinEventLog:Security,WinEventLog,low,10.0.5.99,10.0.1.10,4624 - Successful Logon,allowed,rgarcia
+2026-02-25T10:24:37,ids-sensor-01,suricata,suricata:alert,critical,198.51.100.99,10.0.1.50,ET EXPLOIT CVE-2021-44228,blocked,
+2026-02-25T10:27:50,fw-edge-01,firewall,pan:traffic,critical,185.220.101.5,10.0.1.40,Ransomware.NotPetya,blocked,
